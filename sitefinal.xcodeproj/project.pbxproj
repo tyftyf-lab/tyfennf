@@ -18,6 +18,7 @@
 		D5BB6DDC2C074CEE00054EB2 /* styless.css in Resources */ = {isa = PBXBuildFile; fileRef = D5BB6DDB2C074CEE00054EB2 /* styless.css */; };
 		D5BB6DDE2C074D1000054EB2 /* page1.html in Resources */ = {isa = PBXBuildFile; fileRef = D5BB6DDD2C074D1000054EB2 /* page1.html */; };
 		D5BB6DE02C074D2600054EB2 /* page2.html in Resources */ = {isa = PBXBuildFile; fileRef = D5BB6DDF2C074D2600054EB2 /* page2.html */; };
+		D5BB6DE42C0755F700054EB2 /* page3.html in Resources */ = {isa = PBXBuildFile; fileRef = D5BB6DE32C0755F700054EB2 /* page3.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D5BB6DDB2C074CEE00054EB2 /* styless.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styless.css; sourceTree = "<group>"; };
 		D5BB6DDD2C074D1000054EB2 /* page1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = page1.html; sourceTree = "<group>"; };
 		D5BB6DDF2C074D2600054EB2 /* page2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = page2.html; sourceTree = "<group>"; };
+		D5BB6DE32C0755F700054EB2 /* page3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = page3.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		D5BB6DA22C074C4D00054EB2 = {
 			isa = PBXGroup;
 			children = (
+				D5BB6DE32C0755F700054EB2 /* page3.html */,
 				D5BB6DDF2C074D2600054EB2 /* page2.html */,
 				D5BB6DDD2C074D1000054EB2 /* page1.html */,
 				D5BB6DDB2C074CEE00054EB2 /* styless.css */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5BB6DE02C074D2600054EB2 /* page2.html in Resources */,
+				D5BB6DE42C0755F700054EB2 /* page3.html in Resources */,
 				D5BB6DDE2C074D1000054EB2 /* page1.html in Resources */,
 				D5BB6DDA2C074CE000054EB2 /* index.html in Resources */,
 				D5BB6DDC2C074CEE00054EB2 /* styless.css in Resources */,
