@@ -1,20 +1,30 @@
-/* Styles généraux */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f2; /* Vert sage */
-    color: #556b2f; /* Vert olive */
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyse PageRank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f4f2; /* Vert sage */
+        color: #556b2f; /* Vert olive */
+        margin: 0;
+        padding: 0;
+    }
 
-/* Styles pour les titres */
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-}
+    /* Styles pour les titres */
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
 
-/* Styles supplémentaires pour les éléments de votre choix */
-/* Par exemple, pour un paragraphe */
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
+    /* Styles supplémentaires pour les éléments de votre choix */
+    /* Par exemple, pour un paragraphe */
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+</body>
+</html>
+
