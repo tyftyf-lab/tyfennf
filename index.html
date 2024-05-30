@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Rendu Final MT94</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styless.css">
+    <script src="search.js" defer></script> <!-- Lien vers le fichier JS -->
 </head>
 <body>
     <header>
-        <h1>Forner Tyfenn - P24</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="page1.html">Chapitre 1</a></li>
-                <li><a href="page2.html">Chapitre 2</a></li>
-                <li><a href="page3.html">Chapitre 3</a></li>
-                <li><a href="page2.html">Chapitre 4</a></li>
-                <li><a href="page1.html">Chapitre 5</a></li>
-                <li><a href="page2.html">Chapitre 6</a></li>
-            </ul>
-        </nav>
+        <h1>Rendu MT94</h1>
     </header>
     <main>
-        <h2>Résultats PageRank</h2>
-        <div class="rankings">
-            <p><strong>Page A:</strong> 0.25</p>
-            <p><strong>Page B:</strong> 0.35</p>
-            <p><strong>Page C:</strong> 0.20</p>
-            <p><strong>Page D:</strong> 0.20</p>
-        </div>
+        <p>Pour analyser l'algorithme de PageRank, voici un site contenant le cours de MT94. Son algorithme de recherche est celui de PageRank et est analysé.</p>
+        
+        <form onsubmit="search(event)">
+            <input type="text" id="searchInput" placeholder="Rechercher...">
+            <div>
+                <button type="button" onclick="location.href='totalite.html'">Totalité du cours</button>
+                <button type="submit">Rechercher</button>
+            </div>
+        </form>
+        
+        <!-- Conteneur pour afficher les résultats de la recherche -->
+        <div id="results"></div>
     </main>
 </body>
 </html>
-
